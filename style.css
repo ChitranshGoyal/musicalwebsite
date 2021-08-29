@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%; 
+    background-image: url(media/image.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    width: 88%;
+    margin: auto;
+    padding: 18px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+.navbar a{
+    text-decoration: none;
+    color: #5f5f5f;
+    font-size:  16px;
+}
+
+.left-col{
+    margin-left: 6%;;
+}
+.left-col h1{
+    font-size: 90px;
+    color: #fff;
+    line-height: 110px;
+    float: left;
+    margin-top: 200px;
+}
+.right-col{
+    float: right;
+    margin-right:6%;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+}
+.right-col p{
+    font-size: 20px;
+    color: #5f5f5f;
+    font-weight: 400;
+    margin-right: 15px;
+}
+#icon{
+    width: 80px;
+    cursor: pointer;
+}
+.bts{
+    float: right;
+    margin-right:80%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.bts p{
+    font-size: 20px;
+    color: #5f5f5f;
+    font-weight: 400;
+    margin-right: 15px;
+    margin-top: 100px;
+}
+#tnt{
+    width: 80px;
+    cursor: pointer;
+    margin-top: 100px;
+}
+.like{
+    float: right;
+    margin-right:80%;
+    display: flex;
+    align-items: center;
+}
+.like p{
+    font-size: 20px;
+    color: #5f5f5f;
+    font-weight: 400;
+    margin-right: 15px;
+    margin-top: 40px;
+}
+#girls{
+    width: 80px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.away{
+    float: right;
+    margin-right:80%;
+    display: flex;
+    align-items: center;
+}
+.away p{
+    font-size: 20px;
+    color: #5f5f5f;
+    font-weight: 400;
+    margin-right: 15px;
+    margin-top: 40px;
+}
+#run{
+    width: 80px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.good{
+    float: right;
+    margin-right:15%;
+    display: flex;
+    align-items: center;
+}
+.good p{
+    font-size: 20px;
+    color: #5f5f5f;
+    font-weight: 400;
+    margin-right: 15px;
+    margin-top:-650px;
+}
+#too{
+    width: 80px;
+    cursor: pointer;
+    margin-top: -650px;
+}
+.Stich{
+    float: right;
+    margin-right:15%;
+    display: flex;
+    align-items: center;
+}
+.Stich p{
+    font-size: 20px;
+    color: #5f5f5f;
+    font-weight: 400;
+    margin-right: 15px;
+    margin-top:-400px;
+}
+#Mandes{
+    width: 80px;
+    cursor: pointer;
+    margin-top: -400px;
+}
+.Luke{
+    float: right;
+    margin-right:15%;
+    display: flex;
+    align-items: center;
+}
+.Luke p{
+    font-size: 20px;
+    color: #5f5f5f;
+    font-weight: 400;
+    margin-right: 15px;
+    margin-top:-150px;
+}
+#Berg{
+    width: 80px;
+    cursor: pointer;
+    margin-top: -150px;
+}

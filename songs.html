@@ -1,0 +1,154 @@
+<html>
+    <head>
+        <title>Music Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div class="container">
+            
+            <div class="navbar">
+                <img src="media/logo.png" class="logo">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="songs.html">OTHER SONGS</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="bts">
+                    <p>Dynamite</p>
+                    <img src="media/play.png" id="tnt">
+                </div>
+            </div>
+            <div class="girls-like-you">
+                <div class="like">
+                    <p>Girls Like You</p>
+                        <img src="media/play.png" id="girls">
+                </div>
+            </div>
+            <div class="Runaway">
+                <div class="away">
+                    <p>Runaway</p>
+                        <img src="media/play.png" id="run">
+                </div>
+            </div>
+            <div class="Too-Good-at-goodbyes">
+                <div class="good">
+                    <p>Too Good At Goodbyes</p>
+                        <img src="media/play.png" id="too">
+                </div>
+                <div class="Stiches">
+                    <div class="Stich">
+                        <p>Stiches</p>
+                            <img src="media/play.png" id="Mandes">
+                    </div>
+                </div>
+                <div class="Luke-Bergs">
+                    <div class="Luke">
+                        <p>Best Backgroung Ever</p>
+                            <img src="media/play.png" id="Berg">
+                    </div>
+                </div>
+        </div>
+        </div>
+        <audio id="BestSongEver">
+            <source src="media/BTS (방탄소년단) - Dynamite.mp3" type="audio/mp3">
+        </audio>
+        <audio id="BestSong">
+            <source src="media/Girls-like-you.mp3" type="audio/mp3">
+        </audio>
+        <audio id="Song">
+            <source src="media/RUNAWAY.mp3" type="audio/mp3">
+        </audio>
+    </audio>
+    <audio id="Best">
+        <source src="media/Sam Smith - Too Good At Goodbyes.mp3" type="audio/mp3">
+    </audio>
+    <audio id="Stiches">
+        <source src="media/Shawn Mendes - Stitches.mp3" type="audio/mp3">
+    </audio>
+    <audio id="Music">
+        <source src="media/Luke-Bergs-Bliss.mp3" type="audio/mp3">
+    </audio>
+        <script>
+            var BestSongEver = document.getElementById("BestSongEver")
+            var tnt = document.getElementById("tnt")
+
+            tnt.onclick = function(){
+                if(BestSongEver.paused){
+                    BestSongEver.play();
+                    tnt.src ="media/pause.png"
+                }else{
+                    BestSongEver.pause();
+                    tnt.src ="media/play.png"
+                }
+            }
+
+            var BestSong = document.getElementById("BestSong")
+            var girls = document.getElementById("girls")
+
+            girls.onclick = function(){
+                if(BestSong.paused){
+                    BestSong.play();
+                    girls.src ="media/pause.png"
+                }else{
+                    BestSong.pause();
+                    girls.src ="media/play.png"
+                }
+            }
+            
+            var Song = document.getElementById("Song")
+            var run = document.getElementById("run")
+
+            run.onclick = function(){
+                if(Song.paused){
+                    Song.play();
+                    run.src ="media/pause.png"
+                }else{
+                    Song.pause();
+                    run.src ="media/play.png"
+                }
+            }
+            var Best = document.getElementById("Best")
+            var too = document.getElementById("too")
+
+            too.onclick = function(){
+                if(Best.paused){
+                    Best.play();
+                    too.src ="media/pause.png"
+                }else{
+                    Best.pause();
+                    too.src ="media/play.png"
+                }
+            }
+            var Stiches = document.getElementById("Stiches")
+            var Mandes = document.getElementById("Mandes")
+
+            Mandes.onclick = function(){
+                if(Stiches.paused){
+                    Stiches.play();
+                    Mandes.src ="media/pause.png"
+                }else{
+                    Stiches.pause();
+                    Mandes.src ="media/play.png"
+                }
+            }
+            var Music = document.getElementById("Music")
+            var Berg = document.getElementById("Berg")
+
+            Berg.onclick = function(){
+                if(Music.paused){
+                    Music.play();
+                    Berg.src ="media/pause.png"
+                }else{
+                    Music.pause();
+                    Berg.src ="media/play.png"
+                }
+            }
+        </script>
+        
+    </body>
+</html>
